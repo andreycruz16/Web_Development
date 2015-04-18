@@ -1,0 +1,7 @@
+/*div > p {
+	color: green;
+}*/
+
+p.mark + p { /* ~ + */
+	color: blue;
+}

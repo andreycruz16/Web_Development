@@ -1,0 +1,43 @@
+html {
+	background-color: teal;
+}
+
+img {
+	border: medium double white;
+	padding: 10px 10px 10px 10px; 
+	float: left;
+	margin: 0px 25px 10px 0px;
+	transform: rotate(3deg);
+}
+
+p {
+	font-family: verdana;
+	font-size: 16px;
+}
+
+.doodle {font-family: verdana;}
+
+a:hover {text-decoration: none;}
+
+a {
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+.email {
+	font-family: verdana;
+	text-transform: uppercase;
+	text-decoration: line-through;
+}
+
+.hello {
+	font-family: tahoma;
+	font-size: 26px;
+	text-shadow: 0.1em 0.1em #aaaaaa;
+	text-shadow: offset-x offset-y color;
+}
+
+.insetText {
+	text-shadow: 0px 1px 0px #ffffff;
+	font-family: verdana;
+}

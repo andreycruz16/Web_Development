@@ -1,3 +1,11 @@
+# Added
+*.mp4
+*.srt
+*.mp3
+*.jpg
+*.gif
+*.png
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

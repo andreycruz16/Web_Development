@@ -1,0 +1,7 @@
+* {
+	color: blue;
+}
+
+:not(.mark) {
+	color: red;
+}

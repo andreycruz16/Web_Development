@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang-"en">
+<head>
+	<title>Forms</title>
+	<meta charset = "UTF-8">
+</head>
+	<<!-- style type="text/css">*{border: 1px solid red}</style> If you want to see the borders-->
+<body style="color: white; background-color: teal; font-size: 1.2;font-family: sans-serif">
+	<h1 align="center">Forms Sample</h1>
+	<form action="bin/guestbook.php" method="post">
+		<input type="hidden" name="e-mail" value="me@mysite.com">
+		<ul style="list-style-type: none;">
+			<!-- FILL UP FORMS -->
+			<li><pre>First Name: <input type="text" name="firstname" size="30" maxlength="25" readonly="readonly"> </pre></li>
+			<li><pre>Last Name : <input type="text" name="lastname" size="30" maxlength="25"></pre> </li>
+			<li><pre>Email     : <input type = "text" name = "Email"></pre></li>
+			<li><pre>Password  : <input type = "password" name = "password"></pre></li>
+			<hr>
+			<!-- CHOOSE FILE -->
+			<p>Please submit your resume in <a href="http://www.microsoft.com" target="_blank" title="Microsoft's Site">Microsoft</a> Word or plain text format:<br>
+				<input type="file" name="resume"> <!-- What is accept="image/jpg" -->
+			<hr>
+			<!-- DROPDOWN MENU FORM -->
+			<p>This is a drop-down lists:</p>
+			<form action="bin/guestbook.php" method="post">
+			<p>What is your favorite food?</p>
+			<select name="food">
+				<option value="pizza">Pizza</option>
+				<option value="icecream" selected="selected">Ice Cream</option>
+				<option value="eggsham">Green Eggs and Ham</option>
+			</select>
+			</form>
+			<p><input type="submit" value="Submit"> <input type="reset" value="Reset"></p>
+			<p><input type="reset" value="Clear"></p>
+		</ul>
+	</form>
+		<p>Send us your <em>comments</em> on our <a href="mailto:markandreydelacruz@ymail.com" target="_blank">email</a> account.</p>
+		<a href="#top">Back to top</a>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Form Markup</title>
+	<meta charset="UFT-8" />
+	<style type="text/css">
+	h1 {background-color: silver; color: black; font-size: 1.2em; font-family: Arial, Verdana, sans-serif;}
+	hr {color: blue; width: thick;}
+	body {font-size: 12pt; color: brown; font-family: Tahoma, Bodoni, sans-serif; line-height: 0.8em;}
+	</style>
+</head>
+<body>
+	<h1>Multi-Part Form</h1>
+	<hr>
+	<div>
+		<form action="bin/guestbook.php" method="post">
+			<h1>Name and Password</h1>
+			<p>First Name: <input type="text" name="firstname" size="30" maxlength="25"></p>
+			<p>Last Name: <input type="text" name="lastname" size="30" maxlength="25"></p>
+			<p>Password: <input type="password" name="psswd" size="30" maxlength="25"></p>
+			<h1>Favorite Foods</h1>
+			<p>What are some of your favorite foods?</p>
+			<p><input type="checkbox" name="food" value="pizza"	checked="checked">Pizza</p>
+			<p><input type="checkbox" name="food" value="icecream">Ice Cream</p>
+			<p><input type="checkbox" name="food" value="eggsham">Green Eggs and Ham</p>
+			<h1>Gender Information</h1>
+			<p>What is your gender?</p>
+			<p><input type="radio" name="gender" value="male">Male</p>
+			<p><input type="radio" name="gender" value="female">Female</p>
+			<p style="line-height: 2em; margin: 2em;">
+				<input type="submit" value="Send">
+				<input type="reset" value="Clear">
+			</p>
+		</form>
+	</div>
+	<hr>
+</body>
+</html>

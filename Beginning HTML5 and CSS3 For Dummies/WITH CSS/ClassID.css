@@ -1,0 +1,7 @@
+body {font-family: Arial; color: teal;}
+
+div {color: green;}
+
+p {font-size: 18px; color: blue;}
+
+.information {font-size: 16px;} /*BEATS 'div'*/
