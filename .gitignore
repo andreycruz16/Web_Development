@@ -5,6 +5,8 @@
 *.jpg
 *.gif
 *.png
+*.zip
+*.txt
 
 # Windows image file caches
 Thumbs.db

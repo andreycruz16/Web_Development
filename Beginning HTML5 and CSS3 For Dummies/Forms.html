@@ -3,19 +3,24 @@
 <head>
 	<title>Forms</title>
 	<meta charset = "UTF-8">
+	<script src="angular.min.js"></script>
 </head>
-	<<!-- style type="text/css">*{border: 1px solid red}</style> If you want to see the borders-->
+	<!-- style type="text/css">*{border: 1px solid red}</style> If you want to see the borders-->
 <body style="color: white; background-color: teal; font-size: 1.2;font-family: sans-serif">
 	<h1 align="center">Forms Sample</h1>
 	<form action="bin/guestbook.php" method="post">
 		<input type="hidden" name="e-mail" value="me@mysite.com">
 		<ul style="list-style-type: none;">
 			<!-- FILL UP FORMS -->
-			<li><pre>First Name: <input type="text" name="firstname" size="30" maxlength="25" readonly="readonly"> </pre></li>
-			<li><pre>Last Name : <input type="text" name="lastname" size="30" maxlength="25"></pre> </li>
-			<li><pre>Email     : <input type = "text" name = "Email"></pre></li>
-			<li><pre>Password  : <input type = "password" name = "password"></pre></li>
-			<hr>
+			<div ng-app="">
+				<li><pre>First Name: <input type="text" name="firstname" size="30" maxlength="25" placeholder="First Name" ng-model="first"> </pre></li>
+				<li><pre>Last Name : <input type="text" name="lastname" size="30" maxlength="25" placeholder="Last Name" ng-model="last"></pre> </li>
+				<li><pre>Email     : <input type = "text" name = "Email" placeholder="Email"></pre></li>
+				<li><pre>Password  : <input type = "password" name = "password" placeholder="Password" ></pre></li>
+				<hr>
+				<p>Hello, {{first}} {{last}}</p>
+				<hr>
+			</div>
 			<!-- CHOOSE FILE -->
 			<p>Please submit your resume in <a href="http://www.microsoft.com" target="_blank" title="Microsoft's Site">Microsoft</a> Word or plain text format:<br>
 				<input type="file" name="resume"> <!-- What is accept="image/jpg" -->

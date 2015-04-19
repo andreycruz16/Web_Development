@@ -1,0 +1,51 @@
+#container {
+    width: 1000px;
+    height: 5000px;
+    margin: 10px auto 10px auto;
+    border: 1px solid teal;
+}
+
+#content {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid teal;
+}
+
+img {
+    float: left;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	border: 1px solid teal;
+	padding: 10px;
+	margin: 30px;
+}
+
+a:link {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+footer {
+    text-align: center;
+}
