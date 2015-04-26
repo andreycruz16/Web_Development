@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Multiple JS Statements</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript">
+	function WriteText()
+	{
+		document.getElementById("First").innerHTML = "Changed First"; 
+		alert("Check First!");
+		document.getElementById("Second").innerHTML ="Changed Second";
+		alert("Finished!");
+	}
+	</script>
+</head>
+<body>
+	<h3>Multiple JS Statements</h3>
+	<p id="First">One</p>
+	<p id="Second">Two</p>
+	<input type="button" id="btn" value="Click me" onclick="WriteText()">
+</body>
+</html>

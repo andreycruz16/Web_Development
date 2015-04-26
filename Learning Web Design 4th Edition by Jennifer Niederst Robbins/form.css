@@ -1,0 +1,87 @@
+body {
+	background-color: #7bcaf0;
+	margin: 0% 15%;
+}
+
+h1 {
+	color: #a0474d;
+	border-top: 1px solid #959fa2; 
+	border-bottom: 1px solid #959fa2;
+	text-align: center;
+	font-size: 30px; 
+}
+
+#container {
+
+}
+
+/*FORM SETTINGS*/
+#form {
+	float: left;
+	margin: 0px 10px 30px 0px;
+}
+
+#sign_up label {
+	float: left;
+	width: 60px;
+}
+
+form {
+	border: 1px solid #6c7069;
+	border-radius: 5px;
+	width: 280px;
+	padding: 10px;
+	background-color: #42b4ea;
+}
+
+.submit {
+	text-align: center;
+}
+
+
+#container form div  input {
+	margin: 3px;
+}
+
+/*BOX LINKS*/
+
+#box {
+	margin: 5px solid #6c7069;
+}
+
+#box ul li a {
+	float: right;
+	text-decoration: none;
+	padding: 15px;
+	border: 1px solid #6c7069;
+	border-radius: 10px;
+	background-color: #42b4ea;
+	font-weight: bold;
+	color: white;
+	margin-left: 55px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#box ul li a:hover {
+	background-color: #8298ff;
+}
+
+#box ul li {
+	list-style-type: none;
+}
+
+/*ASIDE BAR*/
+
+#side_bar {
+	width: 300px;
+}
+
+/*FOOTER SETTINGS*/
+
+footer p {
+	clear: both;
+	text-align: center;
+	border-top: 1px solid #6c7069;
+	color: #6c7069;
+}

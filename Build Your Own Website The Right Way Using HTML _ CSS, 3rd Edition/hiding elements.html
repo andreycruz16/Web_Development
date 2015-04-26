@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hiding Elements</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>	
+	<script>
+		function hide() { 
+			$('#tog').hide(500,show); /*the SHOW method runs the show() function*/
+		}
+		function show() { 
+			$('#tog').show(500,hide); 
+		}
+	</script>
+</head>
+<body>
+	<p id="tog">
+		<input type="button" value="Click once to initiate the Hide and Show event" onclick="hide()"/>
+	</p>
+</body>
+</html>

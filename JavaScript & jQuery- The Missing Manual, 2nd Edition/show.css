@@ -1,0 +1,22 @@
+body {
+	margin: 0 25%;
+}
+
+#container {
+	height: 500px;
+	outline: solid thin;
+	margin: 30px;
+	background-color: #e9f4f9;
+	padding: 30px;
+
+}
+
+h2	{
+	text-align: center;
+	color: #2e2f26;
+}
+
+p {
+	text-align: justify;
+	color: #3e4035;
+}

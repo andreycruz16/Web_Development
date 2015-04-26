@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hiding using JQuery</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>	
+	<script>
+		function fadeOut(argument) {
+			$(function(){
+			$('#hello').fadeOut(500);
+			$('#good').after('<h2>Bbye Mark!</h2>');
+		}); // end body
+		}
+		function fadeTo(argument) {
+			$(function() {
+				$('#hi').fadeTo('slow',0.5);
+			}); //end body
+		}
+	</script>
+</head>
+<body>
+	<input type="button" id="good" value="Click me" onclick="fadeOut()">
+	<h2 id="hello">Hello Mark!</h2>
+	<input type="button" value="FadeTo" onclick="fadeTo()">
+	<h2 id="hi">Hello Andrey!</h2>
+</body>
+</html>

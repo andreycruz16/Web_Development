@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Event intro</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('html').dblclick(function() { /*dbl - DOUBLE CLICK*/
+				alert('ouch');
+			}); //end double click
+			$('a').mouseover(function() {
+				var message = "<p>You moused over a link</p>";
+				$('.main').append(message);
+			}) //end mouseover
+			 $('#button').click(function() {
+				 $(this).val("Stop that!");
+			}); // end click
+		}); // end body
+	</script>
+</head>
+<body>
+	<div class="main">
+		<a href="#" >Microsoft</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FAQ</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.answer').hide();
+			$('#menu').toggle(
+				function() {
+					$(this).next('.answer').fadeIn();
+				},
+				function() {
+					$(this).next('.answer').fadeOut();
+				}
+				);//end of toggle
+			}); //end body
+	</script>
+</head>
+<body>
+		<h2 id="menu">How to use GitHub</h2>
+			<p class="answer">Lorem ipsum dolorit in voluptate velit esse
+				lla pariatur. Excepteur sint occaecat cupidatat non
+				n culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Undefined Null</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet">
+	<script type="text/javascript">
+	function UseVariable() {
+	 // Create an undefined variable and test it.
+	 var MyVariable;
+	 alert(MyVariable + " has a type of: " + typeof(MyVariable));
+
+	 // Define the variable and test again.
+	 MyVariable = "I Am Defined!";
+	 alert(MyVariable + " has a type of: " + typeof(MyVariable));
+	 // Empty the variable of data and test again.
+	 MyVariable = null;
+	 alert(MyVariable + " has a type of: " + typeof(MyVariable));
+
+	
+	}
+	</script>
+</head>
+<body>
+	<input type="button" is="btn" value="Click me" onclick="UseVariable()">	
+</body>
+</html>

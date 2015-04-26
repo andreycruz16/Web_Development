@@ -1,0 +1,83 @@
+body {
+	height: 816px;
+}
+
+/*TOP HEADER*/
+#page-base {
+	background-color: #ffffff;
+	height: 55px;
+	padding: 5px;
+	margin: 0px;
+}
+
+#page-base h2 {
+	padding: 0px;
+	text-align: center;
+	font-family: times;
+	font-size: 220%;
+	margin: 0px;
+}
+
+#page-base h2 a {
+	text-decoration: none;
+	color: #222;
+}
+
+
+#main-nav {
+	background-color: #EEE;
+	padding: 5px 16px;
+	box-shadow: 0px -1px 2px silver; 
+}
+
+.nav-bar {
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.nav-bar a{
+	text-align: right;
+	float: left;
+	color: #666;
+	text-decoration: none;
+	margin: 0px 7px;
+	font-size: 15px;
+	transition-duration: 0.2s;
+}
+
+.nav-bar a:hover{
+	text-align: right;
+	float: left;
+	color: #333;
+	text-decoration: underline;
+	margin: 0px 7px;
+	font-size: 15px;
+}
+
+.sign-in a, .sign-up a{
+	text-align: right;
+	float: right;
+	color: #666;
+	text-decoration: none;
+	margin: 0px 5px;
+	font-size: 15px;
+	transition-duration: 0.2s;
+
+}
+
+.sign-in a:hover, .sign-up a:hover {
+	text-align: right;
+	float: right;
+	color: #333;
+	text-decoration: underline;
+	margin: 0px 5px;
+	font-size: 15px;
+}
+
+/**//**//**//**//**//**//**//**//**//**/
+
+#side-bar {
+	background-color: #c59ff2;
+	width: 180px;
+	height: 480px;
+}

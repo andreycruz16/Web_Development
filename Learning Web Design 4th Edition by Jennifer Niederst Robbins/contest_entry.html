@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pimp My Shoes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="contest_entry.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+	<div id="container">
+		<h1>"Pimp My Shoes" Contest Entry Form</h1>
+		<p>Want to trade in your old sneakers for a custom pair of Forcefields? Make a case for why your shoes have got to go and you may be one of ten lucky winners.</p>
+		<br>
+		<div id="form">
+			<form action="http://www.learningwebdesign.com/contest.php" method="POST">
+				<fieldset>
+					<legend>Contest Entry Information</legend>
+					<p><label>Name:</label><input type="text" title="name" placeholder="Full Name"><br></p>
+					<p><label>Email:</label><input type="email" title="email" placeholder="Email"><br></p>
+					<p><label>Phone:</label><input type="tel" title="phone" placeholder="Phone Number"><br></p>
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend>My shoes are SO old...</legend>
+					<textarea name="story" rows="10" cols="60" placeholder="No more than 300 characters long"></textarea>
+				</fieldset>
+				<p><b>Design your custom Forcefields:</b></p>
+				<fieldset>
+					<legend>Custom shoe design</legend>
+					<fieldset>
+						<legend>Color (choose one):</legend>
+						<label><input type="radio" name="color">Red</label>
+						<label><input type="radio" name="color">Blue</label>
+						<label><input type="radio" name="color">Black</label>
+						<label><input type="radio" name="color">Silver</label>
+					</fieldset>
+					<fieldset>
+						<legend>Features (choose as many as you want):</legend>
+						<label><input type="checkbox" name="features[]">Sparkley laces</label>
+						<label><input type="checkbox" name="features[]">Metallid logo</label>
+						<label><input type="checkbox" name="features[]">Light-up heels</label>
+						<label><input type="checkbox" name="features[]">MP3-enabled</label>
+					</fieldset>
+					<fieldset>
+						<legend>Size(Sizes reflect standard men’s sizing):</legend>
+						<select name="size">
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+						</select>
+					</fieldset>
+				</fieldset>
+				<p><input type="submit" value="Submit"> <input type="reset" value="Reset"></p>
+			</form>
+		</div>
+		<div>
+			<label>Number of guests <input type="number" name="guests" min="1" max="6"></label>
+			<label>Satisfaction (0 to 10) <input type="range" name="satis" min="0" max="10" step="1"></label>
+			<label>Your favorite color <input type="color" name="favorite"></label>
+		</div>
+		<footer>
+			<p>&copy; Copyright 2015</p>
+		</footer>
+	</div>
+</body>
+</html>

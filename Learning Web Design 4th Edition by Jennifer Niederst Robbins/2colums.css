@@ -1,0 +1,32 @@
+body {
+	text-align: center;
+}
+
+#header {
+	height: 5%;
+	height: 90px;
+	background-color: #d1d3d4;
+
+}
+
+#main {
+	float: left;
+	width: 60%;
+	margin: 0 5%;
+	outline-style: solid;
+	height: 800px;
+	background-color: #007dc5;
+}
+#extras {
+	float: left;
+	width: 25%;
+	margin: 0 5% 0 0;
+	outline-style: solid;
+	height: 800px;
+	background-color: #c9252c;
+}
+#footer {
+	clear: left;
+	height: 90px;
+	background-color: #d1d3d4;
+} 

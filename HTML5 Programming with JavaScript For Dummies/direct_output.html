@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Direct Document Output</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script language="JavaScript">
+		document.write('<br>This is an example of Direct Document Output  <-------');
+		function GetSite () {
+			document.getElementById("site").innerHTML = '<a href="http://www.Microsoft.com">Microsoft</a>';
+			document.getElementById("btn").setAttribute('value','Success');
+		}
+
+		
+	</script>
+</head>
+<body>
+	<h1>Creating Direct Output</h1>
+	<p id="site">Microsoft</p>
+	<input type="button" id="btn" value="Click me to see the Microsoft's Website" onclick="GetSite()">
+</body>
+</html>

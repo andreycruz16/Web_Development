@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fieldset1</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="fieldset1.css">
+</head>
+<body>
+	<form action="" method="">
+		<h2>Contest Entry Information</h2>
+		<ul>
+			<li>
+				<label for="form-name">Name</label>
+				<input type="text" name="username" id="form-name" class="textinput">
+			</li>
+			<li>
+				<label for="form-email">Email</label>
+				<input type="email" name="emailaddress" id="form-email"class="textinput">
+			</li>
+			<li>
+				<label for="form-tel">Telephone</label>
+				<input type="tel" name="telephone" id="form-tel" class="textinput">
+			</li>
+			<li>
+				<label for="form-story">Your story</label>
+				<textarea name="story" maxlength="300" id="form-story" rows="3" cols="30" placeholder="No more than 300 characters long"></textarea>
+			</li>
+			<li>
+				<label for="sizes">Size</label>
+				<select name="size">
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+				</select>
+				<em>Sizes reflect standard men's sizes</em>
+			</li>
+			<li>
+				<fieldset id="colors">
+					<legend>Color</legend>
+					<ul>
+						<li><label><input type="radio" name="color" value="red"> Red</label> </li>
+						<li><label><input type="radio" name="color" value="blue"> Blue</label> </li>
+						<li><label><input type="radio" name="color" value="black"> Black</label></li>
+						<li><label><input type="radio" name="color" value="silver"> Silver</label></li>
+					</ul>
+				</fieldset>
+			</li>
+			<li>
+				<fieldset id="features">
+					<legend>Features</legend>
+					<ul>
+						<li>
+							<label><input type="checkbox" name="feature" value="laces"> Sparkley laces</label>
+						</li>
+						<li>
+							<label><input type="checkbox" name="feature" value="logo"checked> Metallic logo</label>
+						</li>
+						<li>
+							<label><input type="checkbox" name="feature" value="heels"> Light-up heels</label>
+						</li>
+						<li>
+							<label><input type="checkbox" name="feature" value="mp3"> MP3-enabled</label>
+						</li>
+					</ul>
+				</fieldset>
+			</li>
+			<li class="buttons">
+				<input type="submit" value="Pimp My Shoes!">
+				<input type="reset">
+			</li>
+		</ul>
+	</form>
+</body>
+</html>

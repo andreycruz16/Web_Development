@@ -1,0 +1,255 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	/*background-color: teal;*/
+	margin: 0 5%;
+	height: 1000px;
+	background-image: linear-gradient(to bottom, #ffffff, #79c9ed 90%);
+}
+
+#container {
+	
+}
+
+/*HEADER STYLES*/
+
+#container ul {
+	list-style-type: none;
+	margin-left: 105px;
+	position: fixed;
+	
+}
+ 
+#container ul li {
+	float: left;
+}
+
+#container ul li a {
+	display: block;
+	margin-left: 8px;
+	margin-top: 0px;
+	text-decoration: none;
+	border: 1px solid;
+	padding: 10px 45px;
+	/*background-color: #f169b8;*/
+	background-image: linear-gradient(to bottom, #a06dcf, #56297d);
+	color: #e3eeef;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-weight: bold;
+}
+
+.sign_up a {
+	display: block;
+	margin-left: 8px;
+	margin-top: 0px;
+	text-decoration: none;
+	border: 1px solid;
+	padding: 10px 45px;
+	background-image: linear-gradient(to bottom, #f169b8, #e62f9c) !important;
+	color: #e3eeef;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-weight: bold;
+}
+
+.sign_up a:hover {
+	display: block;
+	margin-left: 8px;
+	margin-top: 0px;
+	text-decoration: none;
+	border: 1px solid;
+	padding: 10px 45px;
+	background-image: linear-gradient(to bottom, #e42397, #f169b8) !important;
+	color: #e3eeef;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-weight: bold;
+	box-shadow: 0px 2px 25px 5px #f169b8;
+}
+
+#container ul li a:hover {
+	display: block;
+	margin-left: 8px;
+	margin-top: 0px;
+	text-decoration: none;
+	border: 1px solid;
+	padding: 10px 45px;
+	/*background-color: #f169b8;*/
+	background-image: linear-gradient(to bottom, #56297d, #8140bb);
+	color: #e3eeef;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-weight: bold;
+	box-shadow: 0px 2px 25px 5px #d8c2eb;
+}
+
+#keyvisual img {
+	/*border: 1px solid violet;*/
+	display: block;
+	float: left;
+}
+
+/*WELCOME*/
+
+#welcome h1 {
+	color: #8957b7;
+	font-size: 60px;
+	font-variant: small-caps;
+	float: left;
+	margin-top: 60px;
+	margin-left: 120px;
+	margin-bottom: 33px;
+}
+
+#welcome img {
+	margin-top: 58px;
+	float: left;
+	border-radius: 30px;
+	margin-left: 10px;
+}
+
+/*SIGN UP FORM*/
+
+#sign_up form {
+	border: 5px solid #6babd6;
+	border-radius: 15px;
+	clear: both;
+	width: 236px;
+	padding: 10px;
+	float: right;
+	background-color: #9d73c4;
+	margin-top: 10px;
+}
+
+#sign_up span {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 23px;
+	color: #f9f9f9;
+}
+
+#sign_up label {
+	float: left;
+	width: 100px;
+	
+
+}
+
+#sign_up label {
+	padding: 3px;
+	margin: 3px;
+	font-variant: small-caps;
+	font-size: 17px;
+	color: #f9f9f9;
+}
+
+#sign_up label, input {
+	padding: 3px;
+	margin: 3px;
+}
+
+
+#sign_up input:focus {
+	background-color: #ffffce;
+}
+
+.button {
+	color: #7745a5;
+	font-size: 16px;
+	font-weight: bold;
+	font-variant: normal !important;
+}
+
+.button_sign_up {
+	text-align: center;
+}
+
+/*LOREM*/
+
+.lorem {
+	float: left;
+	width: 73%;
+	height: 600px;
+	margin-top: 15px;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.lorem h2 {
+	color: #5858d3;
+	margin-bottom: 10px;
+}
+
+.lorem p {
+
+}
+
+/*FOOTER*/
+footer {
+	clear: both;
+	text-align: center;
+}
+
+footer p {
+	color: #635f5f;
+	border-top: 1px solid #635f5f;
+	padding: 10px;
+}
+
+/*quick links*/
+
+.quick_links {
+	display: block;
+	border: 7px solid #9d73c4;
+	float: right;
+	background-color: #6babd6;
+	margin-top: 14px;
+	border-radius: 10px;
+	
+}
+
+.quick_links p {
+	display: block;
+	text-align: center;
+	margin: 30px 10px;
+	padding: 10px 77px;
+	font-weight: bold;
+	color: #f9f9f9;
+	border-radius: 10px;
+}
+
+#fb {
+	background-color: #4862a3;
+	color: #ffffff;
+	border: 2px solid #3c5188;
+}
+
+#twit {
+	background-color: #55acee;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+}
+
+#yt {
+	background-color: #940f09;
+	color: #e3e4e4;
+	border: 2px solid #940f09;
+}
+
+#tb {
+	background-color: #256088;
+	color: #ffffff;
+	border: 2px solid #1c4764;
+}
+
+.quick_links a {
+	text-decoration: none;
+}
+
+.quick_links a:hover {
+	opacity: .5;
+}

@@ -1,0 +1,35 @@
+#nav {
+	 width: 100%;
+	 margin: 0px 50%;
+}
+
+#nav ul {
+	border: 1px solid;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	background-color: #761955;
+
+}
+
+#nav ul li {
+	 float: left;
+	 border: 1px solid;
+	 display: block;
+	 padding: .5em;
+	 border: 1px solid #ba89a8;
+	 border-radius: .5em;
+	 margin: .25em; 
+	 color: white;
+	 background-color: #761955;
+}
+
+#products {
+	clear: both;
+	border: 1px solid violet;
+}
+
+#products p {
+	line-height: 1.5em;
+}

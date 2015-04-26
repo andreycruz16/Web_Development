@@ -1,0 +1,33 @@
+table {
+	margin: 5px;
+	float: left;
+}
+
+#table th, td {
+	border: 1px solid;
+	padding: 4px;
+}
+
+#table th {
+	background-color: #ffd6a8;
+	text-align: center;
+}
+
+#table td {
+	background-color: #fff4e8;
+}
+
+/*advance-table*/
+
+#advance-table th, td{
+	border: 1px solid;
+	padding:  4px;
+}
+
+#advance-table th {
+	background-color: #8dd8fc;
+}
+
+#advance-table td {
+	background-color: #daf2fe;
+}

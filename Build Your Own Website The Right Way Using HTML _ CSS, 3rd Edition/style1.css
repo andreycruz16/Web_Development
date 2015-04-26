@@ -1,0 +1,5 @@
+#header, #sitebranding, #tagline, #navigation, #bodycontent {
+ border: 1px solid red;
+ padding: 2px;
+ margin-bottom: 2px;
+}

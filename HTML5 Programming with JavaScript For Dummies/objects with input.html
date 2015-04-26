@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Objects With input</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet">
+	<script type="text/javascript">
+		 // Instantiate the customer class.
+		 function setCustomer () {
+		 var Person = new customer();
+
+		 Person.Name = document.getElementById('customer-name').value;
+		 Person.Age = document.getElementById('customer-age').value;
+
+		 document.getElementById("final-output").innerHTML = Person.formattedOutput();
+
+		 }
+		 
+		 function formattedOutput() {
+		
+		 return "The customer's name is: " +
+		 this.Name + " and age is: " + this.Age;
+		}
+
+		 function customer() {
+
+		 this.Name = "";
+		 this.Age = 0;
+		 this.formattedOutput = formattedOutput;
+		}
+	</script>
+</head>
+<body>
+	<fieldset>
+		<legend><h3>Creating a New Customer</h3></legend><br>
+		<label>Enter Customer name: <input type="text" placeholder="Customer's name" id="customer-name"></label><br>
+		<label>Enter Customer age: <input type="text" placeholder="Customer's age" id="customer-age"></label><br>
+		<input type="submit" id"btn" value="Submit" onclick="setCustomer()"></label><br>
+	</fieldset>
+	<p id="final-output"></p>
+
+	
+</body>
+</html>

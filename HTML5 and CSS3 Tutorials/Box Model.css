@@ -1,0 +1,29 @@
+.left_column {
+	float: left;
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	color: white;
+	text-align: center;
+	margin: 10px;
+}
+
+.middle_column {
+	float: left;
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	color: white;
+	text-align: center;
+	margin: 10px;
+}
+
+.right_column {
+	float: left;
+	background-color: green;
+	height: 200px;
+	width: 200px;
+	color: white;
+	text-align: center; 
+	margin: 10px;
+}

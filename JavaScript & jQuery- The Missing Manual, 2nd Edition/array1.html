@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Arrays 1</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script>
+		var authors = [ 'Ernest Hemingway',
+						 'Charlotte Bronte',
+						 'Dante Alighieri',
+						 'Emily Dickinson'
+						 ];
+		document.write('<p>The first author is <strong>');
+		document.write(authors[0] + '</strong></p>');
+		document.write('<p>The last author is <strong>');
+		document.write(authors[authors.length-1] + '</strong></p>');
+		authors.unshift('Stan Lee');
+		document.write('<p>I almost forgot <strong>');
+		document.write(authors[0]);
+		document.write('</strong></p>');
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
+		

@@ -1,0 +1,21 @@
+div#content {
+	width: 200px;
+	position: relative;
+	top: 0; /* positioned in the top-left corner */
+	left: 0;
+	background-color: #AFD479;
+	padding: 10px;
+}
+li#special {
+	position: absolute;
+	top: 0; /* positioned in the top-right corner */
+	right: 0;
+	background-color: fuchsia;
+}
+
+#box {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+
+}

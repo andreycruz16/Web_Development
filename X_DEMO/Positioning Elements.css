@@ -1,0 +1,15 @@
+body {
+
+}
+
+#container {
+	background-color: #999999;
+	width: 400px;
+	height: 400px;
+}
+
+#box {
+	background-color: orange;
+	width: 100px;
+	height: 100px;
+}

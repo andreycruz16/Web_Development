@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Confirm</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>	
+	<script>
+		$(document).ready(function(){
+			$('#yes').click(function() {
+				$('#no').after('<p id="yes-message">You will receive notifs!</p>')
+				$('#yes-message').fadeIn(800);
+				$('#yes-message').fadeOut(2000);
+				$('yes-message').remove();
+			});//end click
+		}); //end body
+
+		$(document).ready(function(){
+			$('#no').click(function() {
+				$('#no').after('<p id="no-message">You will NOT receive notifs!</p>')
+				$('#no-message').fadeIn(800);
+				$('#no-message').fadeOut(2000);
+				$('no-message').remove();
+			});//end click
+		}); //end body
+	</script>
+</head>
+<body>
+	<label>Do you want to receive email notifications?</label>
+	<input type="button" id="yes" name="yes" value="Yes">
+	<input type="button" id="no" name="no" value="No">
+</body>
+</html>

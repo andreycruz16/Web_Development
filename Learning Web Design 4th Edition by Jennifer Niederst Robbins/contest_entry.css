@@ -1,0 +1,26 @@
+body {
+	background-color: #faf2e4;
+}
+
+#container {
+	margin: 0px 15%;
+	font-family: sans-serif;
+}
+h1, p{
+	text-align: center;
+}
+
+#form form {
+	margin: 0px 10px;
+}
+
+#form fieldset fieldset {
+	margin: 10px 0px;
+}
+
+#container footer p{
+	text-align: center;
+	border-top: 1px solid #808080;
+	padding-top: 5px;
+	color: #808080;
+}

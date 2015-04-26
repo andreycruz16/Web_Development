@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating New Objects</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script language="JavaScript">
+
+	 // Create a method to add to the customer
+	 // class.
+	 function formattedOutput()
+	 {
+	 // Return the formatted output consisting
+	 // of a string that contains the customer
+	 // data.
+	 return "OUTPUT: The customer's name is: " +
+	 this.Name + " and age is: " + this.Age + " year's old.";
+	}
+	 // Create the customer class.
+
+
+	 function customer()
+	 {
+	 // Define two properties for this class.
+	 this.Name = "";
+	 this.Age = 0;
+
+	 // Add a method for displaying the class data.
+	 this.formattedOutput = formattedOutput;
+	}
+	</script>
+</head>
+<body>
+	<h1>Creating a New Customer</h1>
+	<script language="JavaScript">
+	 // Instantiate the customer class.
+	 var Person = new customer();
+
+	 // Add data to this instance of the customer
+	 // object.
+	 Person.Name = "Sam Smith";
+	 Person.Age = 22;
+
+	 // Output the data found in the ThisCustomer
+	 // object.
+	 document.write("<p>" +	Person.formattedOutput() + "</p>");
+	 </script>
+</body>
+</html>

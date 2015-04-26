@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Labels Fieldsets</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="Labels Fieldsets.css">
+</head>
+<body>
+	<form action="" method="get">
+		<fieldset>
+			<legend>Personal info:</legend>
+			<label for="first_name">First name:<input type="text" name="first_name" id="first_name" placeholder="Enter First name"><br></label>
+			<label for="last_name">Last name:<input type="test" name="last_name" id="last_name" placeholder="Enter Last name"><br></label>
+		</fieldset>
+		<br>
+		<!-- use 'for=""' when the input is not inside of the label  -->
+		<fieldset>
+			<legend>Hobbies:</legend>
+			<label for="sport">Sport<input type="checkbox" value="sport" name="sport" id="sport"></label>
+			<label for="gaming">Gaming<input type="checkbox" value="gaming" name="gaming" id="gaming"></label>
+			<label for="art">Art<input type="checkbox" value="art" name="art" id="art"></label>
+			<label for="acting">Acting<input type="checkbox" value="acting" name="acting" id="acting"></label>
+		</fieldset>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

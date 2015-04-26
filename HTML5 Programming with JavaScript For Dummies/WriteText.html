@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Write Text</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript">
+	function WriteText() {
+		document.getElementById("LongParagraph").innerHTML =
+		"This is a really long line of text that won’t easily\
+		fit on a single line.";
+	}
+	</script>
+</head>
+<body>
+	<p id="LongParagraph"></p>	
+	<input type="button" value="Click me" onclick="WriteText()">
+</body>
+</html>

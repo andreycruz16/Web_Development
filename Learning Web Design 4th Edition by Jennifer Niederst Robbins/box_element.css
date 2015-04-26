@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#container {
+	width: 1000px;
+	height: 600px;
+	background-color: #007dc5;
+	border: 4px solid;
+}
+
+p {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 500px;
+	height: 150px;
+	border: 2px solid;
+	background-color: #C2F670;
+	padding: 16px;
+	text-align: center;
+	margin: 10px;
+	float: right;
+
+img {
+ 	float: right;
+ 	margin: 10px;
+}

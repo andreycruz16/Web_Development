@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>test</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			var strongContent = $("strong").html();
+			var pContent = $("p").html();
+			$("strong").html(pContent);
+			$("p").html(strongContent);
+		}); // end body
+	</script>
+</head>
+<body>
+	<strong>This is the code in the STRONG element.</strong>
+	<p>This is the code in the P element.
+	<img src="scream.jpg" alt="scream" /></p>
+</body>
+</html>

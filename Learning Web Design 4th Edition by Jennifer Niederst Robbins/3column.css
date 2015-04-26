@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+}
+
+#header {
+	height: 50px;
+	background-color: #d1d3d4;
+}
+
+#links {
+	float: left;
+	width: 22.5%;
+	margin: 0 0 0 2.5%;
+	height: 750px;
+	background-color: #c9252c;
+	padding: 15px;
+	box-sizing: border-box;
+
+}
+#main {
+	float: left;
+	width: 45%;
+	margin: 0 2.5%;
+	height: 750px;
+	background-color: #007dc5;
+	padding: 15px;
+	box-sizing: border-box; /* Use this if you want to add padding, margin on your box element*/
+}
+#news {
+	float: left;
+	width: 22.5%;
+	margin: 0 2.5% 0 0;
+	height: 750px;
+	background-color: #008c4f;
+}
+#footer {
+	clear: left;
+	height: 90px;
+	background-color: #d1d3d4;
+}

@@ -1,0 +1,110 @@
+body {
+	background-color: #bfe2f0;
+	max-width: 100%;
+	min-width: 552px;
+}
+
+/*ARTICLE SECTION*/
+/*EARTH*/
+
+#earth section {
+	width: 600px;
+	height: 190px;
+	margin: 60px 0px 0px 60px;
+	border: 4px solid #823eff;
+	border-radius: 10px;
+	box-shadow: 2px 2px 25px #9f9f9f;
+	background-color: #ecf7fb;
+	float: left;
+	position: static;
+
+}
+
+#earth p {
+	margin: 0px;
+	padding: 8px;
+	text-align: center;
+	color: #4f4f4f;
+}
+
+#earth h2 {
+	margin: 0px;
+	padding: 5px 0px;
+	text-align: center;
+	color: #823eff;
+	text-shadow: 2px 2px 3px #9f9f9f;
+}
+
+/*PICACHU*/
+
+#pikachu section {
+	width: 550px;
+	height: 210px;
+	margin: 0px 0px 0px 0px;
+	border: 4px solid #f8e037;
+	border-radius: 10px;
+	box-shadow: 2px 2px 25px #9f9f9f;
+	background-color: #ecf7fb;
+	float: right;
+	position: absolute;
+	top: 60px;
+	left: 700px;
+}
+
+#pikachu p {
+	margin: 0px;
+	padding: 8px;
+	text-align: center;
+	color: #4f4f4f;
+}
+
+#pikachu h2 {
+	margin: 0px;
+	padding: 5px 0px;
+	text-align: center;
+	color: #f7db17;
+	text-shadow: 2px 2px 3px #9f9f9f;
+}
+
+/*img*/
+
+#keyvisual {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	float: left;
+	top: 10px;
+	left: 18px;
+}
+
+#keyvisual2 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	float: left;
+	top: 268px;
+	left: 18px;
+}
+
+#pikachu_img {
+	border: 4px solid #f8e037;
+	background-color: #ecf7fb;
+	border-radius: 10px;
+	box-shadow: 2px 2px 25px #9f9f9f;
+	position: absolute;
+	top: 255px;
+	right: 135px;
+}
+
+
+/*footer*/
+
+.foot {
+	text-align: center;
+	color: #4f4f4f;
+	font-size: 12px;
+	border-top: 1px solid #4f4f4f;
+	padding: 3px 0px;
+	margin: 0px 30px !important;
+	text-shadow: 2px 2px 3px #9f9f9f;
+}

@@ -1,0 +1,87 @@
+body {
+	background-color: #e2edff;
+}
+#site-branding h1{
+	background: navy url(reef.jpg) repeat-y right;
+	color: #ffffff;
+	padding: 30px 77px 5px 10px;
+	margin: 0px;
+}
+#tag-line {
+	border: 1px solid #a9aaf2;
+	margin-top: 0px;
+	color: #6265e8;
+	font-size: 14px;
+	padding-left: 10px;
+
+/*navigation bar*/
+}
+
+#nav-bar {
+	background-image: linear-gradient(to bottom, #168ace, #8dcdf3);
+	width: 200px;
+	height: 690px;
+	font-weight: bold;
+	box-sizing: border-box;
+	position: absolute;
+	padding-top: 10px;
+	border-radius: 15px;
+}
+#nav-bar ul {
+	list-style: none;
+	padding: 0px;
+	margin-left: 23px;
+	font-size: 1.2em;
+}
+#nav-bar li {
+	margin-bottom: 10px;
+
+
+}
+#nav-bar li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+
+}
+/*main content*/
+#main-content {
+	max-width: 1240px;
+	color: #1684b8;
+	left: 208px;
+	position: absolute;
+	padding: 10px 10px 20px 10px;
+ 	margin: 0px 10px 30px 0px;
+ 	border-bottom: 1px solid navy;
+}
+
+#main-content h2{
+	color: #000080;
+}
+
+span {
+	color: #93c71a;
+}
+
+img {
+ 	border: 7px solid white;
+ 	margin: 10px;
+}
+
+#img-caption {
+	color: #717463;
+	font-size: 13px;
+}
+
+/*footer*/
+/*#footer {
+	border-top: 1px solid #717463;
+	text-align: center;
+	color: #717463;
+	font-size: 13px;
+	padding: 5px 0px;
+	margin: 10px 10px;
+	position: relative;
+
+
+}*/

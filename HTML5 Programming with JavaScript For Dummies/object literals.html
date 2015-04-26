@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Object LIterals</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet">
+</head>
+<body>
+	<h2>Create and Use Object Literals</h2>
+
+	 <script language="JavaScript">
+	 // Create the object literal.
+	 var customerData = { Name: 'Sam', Age: 22, Birthday: new Date("05/19/1992")}
+
+	 // Display the object literal data onscreen.
+	 document.write(
+	 "<p>The customer's name is: " +
+	 customerData.Name +
+	 " age is: " + customerData.Age +
+	 " and date of birth is: " +
+	 customerData.Birthday.toDateString() + "</p>");
+ </script>	
+</body>
+</html>

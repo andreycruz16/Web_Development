@@ -1,0 +1,44 @@
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	outline-style: solid;
+	height: 60px;
+	background-color: #d1d3d4;
+}
+
+#main {
+	float: left;
+	width: 520px;
+	margin-top: 0;
+	margin-left: 220px;
+	margin-right: 20px;
+	outline-style: solid;
+	height: 760px;
+	background-color: #007dc5;
+
+}
+#news {
+	float: left;
+	width: 200px;
+	margin: 0;
+	outline-style: solid;
+	height: 760px;
+	background-color: #008c4f;
+} 
+#links {
+	float: left;
+	width: 200px;
+	margin-top: 0;
+	margin-left: -960px;
+	outline-style: solid;
+	height: 760px;
+	background-color: #c9252c;
+}
+#footer {
+	clear: left;
+	outline-style: solid;
+	height: 60px;
+}

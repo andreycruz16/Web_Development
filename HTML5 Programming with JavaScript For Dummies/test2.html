@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Outputting Data to HTML</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script language="JavaScript">
+	function WriteText()
+	{
+		document.getElementById("myText").innerHTML = "Clicked!";
+		document.getElementById("btnClickMe").setAttribute( "value", "Hello!");
+	}
+	</script>
+</head>
+<body>
+	<h1>Creating HTML Element Output</h1>
+	<div>
+		<p id="myText">Change Me</p>
+	</div>
+	<div>
+		<input id="btnClickMe"	type="button" value="Click Me" onclick="WriteText()">
+	</div>
+</body>
+</html>

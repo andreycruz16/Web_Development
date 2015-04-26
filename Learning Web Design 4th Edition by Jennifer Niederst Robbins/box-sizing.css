@@ -1,0 +1,95 @@
+body {
+	background-image: linear-gradient(to top, #ffffff, #0499eb);
+	border: 1px solid teal;
+	height: 100%;
+	margin: 0px 10%;
+	max-width: 100%;
+	min-width: 552px;
+}
+
+/*header*/
+
+
+
+header h1 {
+	text-align: center;
+	color: #4e05ac;
+	font-variant: small-caps;
+	font-size: 2.5em;
+}
+
+/*images*/
+
+#scream {
+	padding: 10px;
+	float: left;
+}
+
+#dogslap {
+	padding: 10px;
+	float: right;
+}
+
+#shocked {
+	padding: 10px;
+	float: left;
+}
+
+#cat {
+	padding: 10px;
+	float: right;
+}
+
+#sleepy {
+	padding: 10px;
+	float: left;
+}
+
+/*article*/
+
+article section p {
+	text-align: justify;
+	color: #272822;
+	padding: 5px 10px;
+	margin-top: 5px;
+	text-indent: 45px;
+}
+
+article section h2 {
+	clear: both;
+	text-align: left;
+	padding: 5px 10px 0px;
+	color: #3e3f36;
+	border-top: 2px solid #8b39f9;
+	border-left: 4px solid #8b39f9;
+	border-radius: 10px 0px 0px 10px;
+	margin: 0px 15px;
+}
+
+/*footer*/
+footer {
+	text-align: center;
+}
+
+footer p {
+	border-top: 1px solid #0b0b0b;
+	color: #0b0b0b;
+	margin: 50px 20px 20px 20px;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #0b0b0b;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: #5c5e51;
+}
+
+footer a:active {
+	text-decoration: none;
+	color: #45463c;
+}

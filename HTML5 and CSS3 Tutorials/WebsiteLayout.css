@@ -1,0 +1,63 @@
+* {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+	border: 1px solid black;
+	background-color: #8ab6c7;
+}
+
+.clear {
+	clear: both;
+}
+
+.logo {
+	float: left;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.top_nav {
+	float: left;
+	width: 920px;
+}
+
+.top_nav ul li {
+	float: left;
+	padding: 29px 20px;
+}
+
+/*FLOAT MAIN SECTION AND ASIDE*/
+
+.left_side {
+	float: left;
+	width: 700px;
+
+}
+
+.right_side {
+	float: left;
+	width: 300px;
+}
+
+.left_side article {
+	border: 1px solid teal;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+.right_side div {
+	border: 1px solid orange;
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+}
+
+/*MAKE FOOTER CLEAR FLOATED ELEMENTS*/
+
+.page_footer {
+	clear: both;
+	text-align: center;
+}

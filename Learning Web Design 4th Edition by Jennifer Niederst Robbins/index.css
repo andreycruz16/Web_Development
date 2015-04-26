@@ -1,0 +1,26 @@
+body {
+	background-color: #faf2e4;
+	margin: 0 15%; /* THIS IS A RESPONSIVE DESIGN*/
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-family: serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	border-bottom: 1px solid #57b1dc;
+	margin-top: 30px;
+}
+
+h2 {
+	color: #d1633c;
+	font-size: 1em;
+}
+
+footer {
+	text-align: center;
+	border-top: 1px solid #8b8b8b;
+	color: #8b8b8b;
+	font-size: 14px;
+}

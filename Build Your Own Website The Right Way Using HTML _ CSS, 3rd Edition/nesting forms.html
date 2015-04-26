@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Nesting Forms</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>	
+</head>
+<body>
+	<form action="" method="get">
+		<fieldset>
+			<legend>Personal Details</legend>
+			<fieldset>
+				<legend>Address Details</legend>
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city"><br>
+				<label for="zip">Zip Code:</label>
+				<input type="text" id="zip" name="zip">
+			</fieldset>
+			<fieldset>
+				<legend>Telephone Details</legend>
+				<label for="home">Home:</label>
+				<input type="text" id="home" name="home"><br>
+				<label for="mobile">Mobile</label>
+				<input type="text" id="mobile" name="mobile" >
+			</fieldset>
+		</fieldset>
+		<input type="submit" value="Submit Query" id="submit-query">
+	</form>
+</body>
+</html>

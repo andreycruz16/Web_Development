@@ -1,0 +1,20 @@
+table {
+	background-color: #dddddd;
+	width: auto;
+	margin: 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+
+
+
+/*<th colspan="2">    USE COLSPAN if you want to have 2 or more spaces*/  

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Number Formats</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet">
+	<script type="text/javascript">
+		var ThisNumber = 22.5
+	</script>
+</head>
+<body>
+	<body>
+		<h1>Formatting Numbers</h1>
+		<p>toExponential():
+			<script language="JavaScript">
+			document.write(ThisNumber.toExponential(5));
+			</script>
+		</p>
+		<p>toFixed():
+			<script language="JavaScript">
+			document.write(ThisNumber.toFixed(5));
+			</script>
+		</p>
+		<p>toLocaleString():
+			<script language="JavaScript">
+			document.write(ThisNumber.toLocaleString());
+			</script>
+		</p>
+		<p>toPrecision():
+			<script language="JavaScript">
+			document.write(ThisNumber.toPrecision(5));
+			</script>
+		</p>
+		<p>toString():
+			<ul>
+				<li>Binary:
+					<script language="JavaScript">
+					document.write(ThisNumber.toString(2));
+					</script>
+				</li>
+				<li>Octal:
+					<script language="JavaScript">
+					document.write(ThisNumber.toString(8));
+					</script>
+				</li>
+				<li>Decimal:
+					<script language="JavaScript">
+					document.write(ThisNumber.toString(10));
+					</script>
+				</li>
+				<li>Hexadecimal:
+					<script language="JavaScript">
+					document.write(ThisNumber.toString(16));
+					</script>
+				</li>
+			</ul>
+		</p>
+	</body>
+	</html>
