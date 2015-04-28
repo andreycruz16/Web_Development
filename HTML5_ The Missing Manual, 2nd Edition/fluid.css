@@ -1,0 +1,12 @@
+.left {
+	width: 300px;
+	height: 500px;
+	background-color: #E82F2F;
+	outline: solid thin;
+}
+.right {
+	width: 300px;
+	height: 500px;
+	background-color: #4D6AD7;
+	outline: solid thin;
+}

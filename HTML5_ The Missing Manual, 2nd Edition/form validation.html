@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Untitled</title>
+	<title>Form Validation</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial scale=1">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>	
+	<style type="text/css" media="screen">
+		input:required:invalid {
+ background-color: lightyellow;
+}		
+	</style>
 </head>
 <body>
-		
+	<h2>Form Validation</h2>	
+	<form action="" method="post">
+		<fieldset>
+			<legend>Personal Details</legend>
+			<label for="name">Name:<em>*</em></label>
+			<input type="text" name="name"  id="name"  placeholder="Jane Smith" autofocus required  
+			 title= "Your promotion code is three uppercase letters, a dash, then three numbers" pattern="[A-Z]{3}-[0-9]{3}"><br>
+			<label for="contact">Contact<em>*</em></label>
+			<input type="text" name="contact" id="contact" placeholder="0916XXXXXXX">
+		</fieldset>
+		<input type="submit" value="Submit">
+	</form>
 </body>
 </html>
