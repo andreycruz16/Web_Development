@@ -1,31 +1,39 @@
 body {
 	margin: 0px;
+	background-color: #D2EAFF;
+	font-size: 100%;
 }
 .leftcolumn {
 	width: 30%;
-	height: 300px;
+	height: 700px;
 	float: left;
 	background-color: #EC7272;
 	margin: 10px 1.25%;
-	padding: 10px;
+	padding: 15px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	box-sizing: border-box;	
+
 }
 
 .rightcolumn {
 	width: 65%;
-	height: 300px;
+	height: 700px;
 	float: left;
 	background-color: #444ABA;
 	margin: 10px 1.25%;
-	padding: 10px;
+	padding: 15px;
+	/* min-width: 200px;  This ADD A MINIMUM WIDTH TO Make the elements line up as blocks as te viewport gets thinner*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	
+	box-sizing: border-box;	
 }
 
 p {
 	color: #ffffff;
+	font-size: 0.9em;
+}
+
+img {
+	max-width: 100%; /* this will automatically resize the imagew while the viewport is getting thinner */
 }

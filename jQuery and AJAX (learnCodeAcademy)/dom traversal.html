@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DOM Traversal with jQuery</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<style>
+		.special {
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<ul class="list">
+		<li>one</li>
+		<li class="special">two</li>
+		<li>three</li>
+		<li>
+			<ul class="sublist">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</ul>
+		</li>
+	</ul>
+	
+
+	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>	
+	<script>
+	$('li').on('click', function() {
+		$(this).removeClass('special')
+		$(this).siblings().addClass('special');
+	}); // end
+
+
+
+	</script>
+</body>
+</html>

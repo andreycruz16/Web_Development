@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Simple Tabs</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>	
+	<style>
+		body {
+			background-color: #fdf6e3;
+			margin: 10px;
+			padding: 10px;
+		}
+		h1 {
+			color: #576d74;
+		}
+	</style>
+</head>
+<body>
+	<h1>Simple Tabs Product</h1>
+	<p>You should buy this, it's great!</p>
+	<ul id="tabs">
+		<li><a href="#description">Description</a></li>
+		<li><a href="#photos">Photos</a></li>
+		<li><a href="#details">Details</a></li>
+		<li><a href="#reviews">Customer Reviews</a></li>
+		<li><a href="#related">Related Items</a></li>
+	</ul>
+	<div id="description" class="tab-section">
+		<h2>Overview</h2>
+		<p>This section contains a basic overview of our product.</p>
+
+	</div>
+	<div id="photos" class="tab-section">
+		<h2>Photos</h2>
+		<p>This section contains additional photos of our product.</p>
+	</div>
+	<div id="details" class="tab-section">
+		<h2>Details</h2>
+		<p>This is where we list out all the details of our product –	 size, weight, color, materials, etc.</p>
+	</div>
+	<div id="reviews" class="tab-section">
+		<h2>Customer Reviews</h2>
+		<p>Here's where we would list all of the glowing reviews our customers had written</p>
+	</div>
+	<div id="related" class="tab-section">
+		<h2>Related Items</h2>
+		<p>And here we would list out other super items that our customers might also like to buy.</p>
+	</div>
+	<script>
+		$(function() {
+			$('.tab-section').hide();
+			$('#tabs a').bind('click', function(e) {
+				$('this.hash').show();
+				e.preventDefault;
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Toggle</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>	
+	<style>
+		#mybtn {
+			vertical-align: top;
+		}
+	</style>
+</head>
+<body>
+	<input type="button" name="click me" value="Click Me" id="mybtn">
+	<img src="red_panda.jpg" alt="Red Panda" title="Red Panda" id="myimg"><br>
+	<script>
+		$(function() {
+			$('#mybtn').on('click', function() {
+				$('#myimg').fadeToggle(1000);
+			});
+		});
+	</script>
+</body>
+</html>

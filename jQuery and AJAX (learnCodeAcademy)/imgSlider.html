@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Image Slider</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+	<style>
+		#slider {
+			width: 960px;
+			height: 600px;
+			overflow: hidden;
+			outline: solid thin #aaaaaa;
+		}
+
+		#slider .slides {
+			display: block;
+			width: 6000px;
+			height: 400px;
+			margin: 0px;
+			padding: 0px;
+		}
+		#slider .slide {
+			float: left;
+			list-style-type: none;
+			width: 740px;
+			height: 400px;
+		}
+		.header h2 {
+			color: #aaaaaa;
+		}
+
+		.container {
+			margin: 20px;
+		}
+
+		img {
+			width: 960px;
+			height: 600px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<div class="header">
+		<h2>jQuery Image Slider</h2>
+	</div>
+	<div id="slider">
+		<ul class="slides">
+			<li class="slide"><img src="BingWallpaper-2015-04-20.jpg"></li>
+			<li class="slide"><img src="BingWallpaper-2015-04-21.jpg"></li>
+			<li class="slide"><img src="BingWallpaper-2015-04-22.jpg"></li>
+			<li class="slide"><img src="BingWallpaper-2015-04-24.jpg"></li>
+			<li class="slide"><img src="BingWallpaper-2015-04-27.jpg"></li>
+			<li class="slide"><img src="BingWallpaper-2015-04-28.jpg"></li>
+			<li class="slide"><img src="BingWallpaper-2015-04-20.jpg"></li>
+		</ul>
+	</div>
+	</div>
+	<script>
+		$(function() {
+			var width = 720;
+			var animationSpeed = 2000;
+			var pause = 2000;
+			var currentSlide = 1;
+
+			//cache DOM
+			var $slider = $('#slider');
+			var $slideContainer = $slider.find('.slides')
+			var $slides = $slideContainer.find('.slide')
+
+			setInterval(function() {
+				$slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
+					currentSlide++;
+					if(currentSlide == $slides.length) {
+						currentSlide = 1;
+						$slideContainer.css('margin-left', 0);
+					}
+				});
+			}, pause);
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>jQuery</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>	
+	<style>
+		body {
+			background-color: #fdf6e3;
+			margin: 10px;
+			padding: 10px;
+		}
+		h1 {
+			color: #576d74;
+		}
+		ul {
+			list-style-type: none;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body>
+	<h1>My First jQuery</h1>	
+	<p>Thanks to jQuery doung fancy JavaScript stuff is easy.</p>
+	<p><a href="http://www.google.com" target="_blank">Google</a> something.</p>
+
+	<ul>
+		<li><a href="presentation.ppt">Presentation slides</a></li>
+		<li><a href="video.mp4">Video of presentation</a></li>
+		<li><a href="notes.pdf">Notes for presentation</a></li>
+		<li><a href="icons.gif">Icon sprite</a></li>
+	</ul>
+	<script>
+		$(function() {
+			$('body').append('<p>This paragraph was added with jQuery!</p>');
+		});
+	</script>
+</body>
+</html>

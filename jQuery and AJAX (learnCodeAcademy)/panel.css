@@ -1,0 +1,57 @@
+* {
+	margin: 0em;
+	padding: 0em;
+}
+
+.panel1 {
+	background-color: #7AB6FA;
+	font-weight: bold;
+	color: white;
+	width: 100px;
+	height: 70px;
+	margin: 2em;
+	padding: 1em;
+	text-align: center;
+	outline: solid thin;
+}
+
+.panel2 {
+	background-color: #FFA84A;
+	font-weight: bold;
+	color: white;
+	width: 100px;
+	height: 70px;
+	margin: 2em;
+	padding: 1em;
+	text-align: center;
+	outline: solid thin;
+}
+
+.panel3 {
+	background-color: #0CA300;
+	font-weight: bold;
+	color: white;
+	width: 100px;
+	height: 70px;
+	margin: 2em;
+	padding: 1em;
+	text-align: center;
+	outline: solid thin;
+}
+
+.panel4 {
+	background-color: #BA0000;
+	font-weight: bold;
+	color: white;
+	width: 100px;
+	height: 70px;
+	margin: 2em;
+	padding: 1em;
+	text-align: center;
+	outline: solid thin;
+}
+
+input[type="button"] {
+	margin: 2em 2em 0em 2em;
+	padding: 1em;
+}
