@@ -30,6 +30,7 @@
 </head>
 <body>
 	<input type="button" name="button" id="button" value="Click Me">
+	<input type="button" name="button" id="color" value="Change Color">
 	<h1>Through the Looking-Glass</h1>
 	 <div class="author">by Lewis Carroll</div>
 	 <div class="chapter" id="chapter-1">
@@ -78,6 +79,12 @@
 	  			$('h1, p').toggle(200);
 	  		});
 	  	});
+
+	  	$(function() {
+	  		$('#color').on('click', function() {
+	  			$('h1, p').css('color', '#46059b');
+	  		})
+	  	})
 	   </script>
 </body>
 </html>
