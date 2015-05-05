@@ -26,29 +26,44 @@
 		p {
 			margin: .5em;
 		}
+		button {
+			border: none;
+			background-color: #ffffff;
+		}
 	</style>	
 </head>
 <body>
 	<script>
-		
+		$(function() {
+			var count = 1;
+			while(count < 100) {
+				$('#panel' + count).hide();
+				count++;
+			}
+		}); // end function
 	</script>
 
-	<h2>Frequently Asked Questions</h2>
-	<h3>DATA COMMUNICATION AND NETWORKS</h3>
-
-	<p class="question"><b>Define he term Computer Networks</b></p>
-	<p class="answer">A Computer network is a number if computers interconnected by one or moretransmission paths. The transmission path often is the telephone line, due to itsconvenience and universal preserve</p>
-
-	<p class="question"><b>Define Data Communication</b></p>
-	<p class="answer">Data Communication is the exchange of data (in the form of Os and 1s) between twodevices via some form of transmission medium (such as a wire cable)</p>
+	<h2>Frequently Asked Questions</h2><br>
+	<h3>DATA COMMUNICATION AND NETWORKS</h3><br>
+	<br>
+	<button class="panel-button" data-panelid="panel1"><b>Define he term Computer Networks</b></button><br>
+	<p id="panel1">A Computer network is a number if computers interconnected by one or moretransmission paths. The transmission path often is the telephone line, due to itsconvenience and universal preserve</p>
+	<br>
+	<button class="panel-button" data-panelid="panel2"><b>Define Data Communication</b></button><br>
+	<p id="panel2">Data Communication is the exchange of data (in the form of Os and 1s) between twodevices via some form of transmission medium (such as a wire cable)</p>
+	<br>
+	<button class="panel-button" data-panelid="panel3"><b>What is the fundamental purpose behind data Communication?</b></button><br>
+	<p id="panel3">The purpose of data communication is to exchange information between two agents.</p>
+	<br>
+	<button class="panel-button" data-panelid="panel4"><b>list out the types of data Communication.</b></button><br>
+	<p id="panel4">Data Communication is considered<br>Local - if the communicating device are in the same building.<br>
+	Remote - if the device are farther apart.</p>
 
 	<script>
-		$(function() {
-			$('.question').on('click', function() {
-				
+		$('.panel-button').on('click', function() {
+			var panelId = $(this).attr('data-panelid');
+			$('#'+ panelId).slideToggle(200);
 		});
 	</script>
-
-
 </body>
 </html>

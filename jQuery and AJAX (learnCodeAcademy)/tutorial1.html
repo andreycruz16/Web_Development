@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tutorial jquery and ajax</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>	
+	<style>
+		* {
+			padding: 0em;
+			margin: 0em;
+		}
+		body {
+			background-color: #64BCFF;
+		}
+		.panel-button, .panel-button, .panel-button {
+			padding: .5em 1em .5em 1em;
+			background-color: #9D55FF;
+			font-weight: bold;
+			margin: 1em 1em 0em 1em;
+			color: white;
+			border-color: #9000FF;
+			border-radius: 10px;
+		}
+		 #panel1, #panel2, #panel3, {
+			background-color: #A579FF;
+			width: 100px;
+			height: 100px;
+			outline: solid .1em white;
+			margin: .5em 1em 0em 1em;
+			border-radius: 5px;
+		}
+
+		 #panel1 p, #panel2 p, #panel3 p, #panel99 p{
+		 	text-align: center;
+		 	font-weight: bold;
+		 	color: white;
+		 	padding: 10px;
+		}
+
+		.box {
+			margin: 10px;
+			float: left;
+		}
+
+	</style>
+</head>
+<body>
+	<script>
+		$(function() {
+			var count = 1; 
+			while(count < 100) {
+				$('#panel'+ count).hide();
+				count++;
+			}
+		});
+	</script>
+
+	<div class="box">	
+		<input type="button" name="btn" class="panel-button" data-panelId="panel1" value="Click me">
+		<div id="panel1" ><p>Hello</p></div>
+	</div>
+
+	<div class="box">
+		<input type="button" name="btn" class="panel-button" data-panelId="panel2" value="Click me">
+		<div id="panel2" ><p>Hi</p></div>
+	</div>
+
+	<div class="box">
+		<input type="button" name="btn" class="panel-button" data-panelId="panel3" value="Click me">
+		<div id="panel3" ><p>Hey</p></div>
+	</div>
+
+	<div class="box">
+		<input type="button" name="btn" class="panel-button" data-panelId="panel99" value="Click me">
+		<div id="panel99"><p>Hey</p></div>
+	</div>
+
+
+
+	<script>
+		$(function() {
+
+			$('.panel-button').on('click', function() {
+				var panelId = $(this).attr('data-panelId');
+				$('#' +panelId).slideToggle(200);
+			});
+
+		});
+	</script>
+</body>
+</html>
